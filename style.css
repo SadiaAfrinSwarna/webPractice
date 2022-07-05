@@ -7,12 +7,13 @@ h1{
 .newC{
     color: orangered;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half{
     width: 50%;
     padding-left: 1%
+    box-shadow: yellowgreen;
 }
 .half img{
     width: 50%;
@@ -25,4 +26,11 @@ section{
     padding: 10px 40px;
     border-radius: 7px;
     font-weight: 700;
+}
+.dream{
+    background-image: url(web.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color:aliceblue;
+    padding: 50px;
 }
